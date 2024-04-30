@@ -1,0 +1,9 @@
+h1 {
+    color: rgb(128, 18, 18);
+    font-size: 100px;
+}
+h2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif, 'Times New Roman', Times, serif;
+    background-color: aqua;
+    color: blueviolet;
+}

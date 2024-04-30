@@ -1,0 +1,21 @@
+.box1 {
+    background-color: #0d7ee0;
+    height: 200px;
+    width: 200px;
+}
+.box2 {
+    background-color: blue;
+    height: 200px;
+    width: 200px;
+
+}
+.box3{
+    background-color: aquamarine;
+    height: 200px;
+    width: 200px;
+}
+.box4{ 
+    background-color: rgba(221, 241, 6, 0.3);
+    height: 200px;
+    width: 200px;
+}

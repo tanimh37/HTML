@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table Formatting</title>
+    <style>
+        td,th {border: 1px solid rgb(255, 0, 64);}
+        table {
+            border-collapse: collapse;  }
+            thead {background-color: deeppink;
+            height: 55px; }
+            tfoot { background-color: darkcyan;height: 55px;}
+    </style>
+</head>
+<body>
+   <h3>Table-1</h3>
+   <table style="border: 1px solid blue;">
+    <tr>
+        <td>ABC</td>
+    </tr>
+   </table> 
+   <h3>Table</h3>
+   <Table style="border: 1px solid rgb(50, 210, 170); width: 300px;">
+    <tr>
+        <th>ID</th>
+        <th>Name</th>
+        <th>Details</th>
+
+        <hr>
+        <h3>Table-3</h3>
+        <table style="border: 1px solid rgb(55, 0, 255);width: 300px;">
+            <tr>
+                <td>1</td>
+                <td>Nazmul</td>
+                <td>Mahmudul</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Rabbi</td>
+                <td>Nazmul 2</td>
+            </tr>
+        </table>
+        <h3>Table-4</h3>
+
+        <table style="width: 300px; height: 200px;">
+            <tr>
+                <td>1</td>
+                <td>2</td>
+                <td colspan="2">3</td>
+                
+            </tr>
+            <tr>
+                <td>5</td>
+                <td colspan="3">6</td>
+               
+            </tr>
+            <tr>
+                <td>9</td>
+                <td>10</td>
+                <td>11</td>
+                <td>12</td>
+               
+            </tr>
+            <tr>
+                <td>13</td>
+                <td>14</td>
+                <td>15</td>
+                <td>16</td>
+            </tr>
+        </table>
+        <hr>
+        <table style="width: 350px; height: 250px;">
+        <tr>
+            <td>A</td>
+            <td>B</td>
+            <td>C</td>
+            <td>D</td>
+        </tr>
+        <tr>
+            <td rowspan="3">E</td>
+            <td>F</td>
+            <td rowspan="3">G</td>
+            <td>H</td>
+        </tr>
+        <tr>
+           
+            <td>J</td>
+           
+            <td>L</td>
+        </tr>
+        <tr>
+           
+            <td>N</td>
+           
+            <td>P</td>
+        </tr>
+          
+           
+        </table> <hr>
+
+        <h3>Collgroup</h3>
+<table>
+ <caption>Book List and Price</caption>
+
+<colgroup>
+    <col style=" background-color: aqua;">
+    <col style="background-color: bisque;">
+<col style="background-color: green;">
+
+</colgroup>
+
+    <tr>
+       <th>SL</th>
+       <th>Book Name</th>
+       <th>Price</th>
+    </tr>
+    <tr>
+        <td>1</td>
+        <td>HTML Advanvce</td>
+        <td>$50</td>
+    </tr>
+    <tr>
+        <td>2</td>
+        <td>JavaScript</td>
+        <td>$48</td>
+    </tr>
+</table> <hr>
+
+ <h3>Table 7 </h3>
+ <table style="width: 400px; height: 300px;">
+   <thead> <tr>
+    <th></th>
+    <th></th>
+    <th></th>
+    <th></th>
+ </tr></thead>
+    <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+   <tbody> <tr>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+</tr>
+<tr>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+</tr><tr>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+</tr>
+</tbody>
+<tfoot>    <tr>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+</tr></tfoot>
+   
+ </table>
+
+   
+</body>
+</html>
